@@ -6,11 +6,10 @@ def randomChapter(chapter: int):
         "Diga siempre menos de lo necesario",
         "Casi todo depende de su prestigio, defiéndalo a muerte",
         "Busque llamar la atención a cualquier precio",
-        "Logre que otros trabajen por usted, pero nu deje nunca de llevarse los laureles",
+        "Logre que otros trabajen por usted, pero no deje nunca de llevarse los laureles",
         "Haga que la gente vaya hacia usted y, de ser necesario, utilice la carnada más adecuada para lograrlo",
         "Gane a través de sus acciones, nunca por medio de argumentos",
         "Peligro de contagio: Evite a los perdedores y desdichados",
-        # Ley 11
         "Haga que la gente dependa de usted",
         "Para desarmar a su víctima, utilice la franqueza y la generosidad de forma selectiva",
         "Cuando pida ayuda, no apele a la compasión o a la gratitud de la gente, si no a su egoísmo",
@@ -21,7 +20,6 @@ def randomChapter(chapter: int):
         "No construya fortalezas para protegerse: El aislamiento es peligroso",
         "Sepa con quién está tratando: No ofenda a la persona equivocada",
         "No se comprometa con nadie",
-        # Ley 21
         "Finja candidez para atrapar a los cándidos: Muéstrese más tonto que su víctima",
         "Utilice la táctica de la capitulación. Transforme debilidad en poder",
         "Concentre sus fuerzas",
@@ -32,8 +30,7 @@ def randomChapter(chapter: int):
         "Sea audaz al entrar en acción",
         "Planifique sus acciones de principio a fin",
         "Haga que sus logros parezcan no requerir esfuerzos",
-        # Ley 31
-        "Controle las opcoines: Haga que otros jueguen con las cartas que usted prepare",
+        "Controle las opciones: Haga que otros jueguen con las cartas que usted prepare",
         "Juegue con las fantasías de la gente",
         "Descubra el talón de Aquiles de los demás",
         "Actúe com un rey para ser tratado como tal",
@@ -43,8 +40,7 @@ def randomChapter(chapter: int):
         "Piense como quiera, pero comportese como los demás",
         "Revuelva las aguas para asegurarse una buena pesca",
         "Menosprecie lo que es gratuito",
-        # Ley 41
-        "Evite imitar a los grandes homrbes",
+        "Evite imitar a los grandes hombres",
         "Muerto el perro, se acabó la rabia",
         "Trabaje sobre la mente y el corazón de los demás",
         "Desarme y enfurezca con el efecto espejo",
