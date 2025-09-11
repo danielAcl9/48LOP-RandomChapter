@@ -9,8 +9,49 @@ def randomChapter(chapter: int):
         "Logre que otros trabajen por usted, pero nu deje nunca de llevarse los laureles",
         "Haga que la gente vaya hacia usted y, de ser necesario, utilice la carnada más adecuada para lograrlo",
         "Gane a través de sus acciones, nunca por medio de argumentos",
-        "Peligro de contagio: Evite a los perdedores y desdichados"
-        # Ley 11 sigue
+        "Peligro de contagio: Evite a los perdedores y desdichados",
+        # Ley 11
+        "Haga que la gente dependa de usted",
+        "Para desarmar a su víctima, utilice la franqueza y la generosidad de forma selectiva",
+        "Cuando pida ayuda, no apelea a la compasión o a la gratitud de la gente, si no a su egoísmo",
+        "Muéstrese com un amigo, pero actúe como un espía",
+        "Aplaste por completo a su enemigo",
+        "Utilice la ausencia para incrementar el respeto y el honor",
+        "Mantenga el suspenso. Maneje el arte de lo impredecible",
+        "No construya fortalezas para protegerse: El aislamiento es peligroso",
+        "Sepa co nquien está tratando: No ofenda a la persona equivocada",
+        "No se comprometa con nadie",
+        # Ley 21
+        "Finja candidez para atrapar a los cándidos: Muéstrese más tonto que su víctima",
+        "Utilice la táctica de la capitulación. Transforme debilidad en poder",
+        "Concentre sus fuerzas",
+        "Desempeñe el papel del cortesano perfecto",
+        "Procure recrearse permanentemente",
+        "Mantenga sus manos limpias",
+        "Juegue con la necesidad de la gente de tener fe en algo, para cosneguir seguidores inconodicionales",
+        "Sea audaz al entrar en acción",
+        "Planifique sus acciones de principio a fin",
+        "Haga que sus logros parezcan no requerir esfuerzos",
+        # Ley 31
+        "Controle las opcoines: Haga que otros jueguen con las cartas que usted prepare",
+        "Juegue con las fantasías de la gente",
+        "Descubra el talón de Aquiles de los demás",
+        "Actúe com un rey para ser tratado como tal",
+        "Domine el arte de la oportunidad",
+        "Menosprecie las cosas que no puede obtener: ignorarlas es la mejor de las venganzas",
+        "Arme espectáculos imponentes",
+        "Piense como quiera, pero comportese como los demás",
+        "Revuelva las aguas para asegurarse una buena pesca",
+        "Menosprecie lo que es gratuito",
+        # Ley 41
+        "Evite imitar a los grandes homrbes",
+        "Muerto el perro, se acabó la rabia",
+        "Trabaje sobre la mente y el corazón de los demás",
+        "Desarme y enfurezca con el efecto espejo",
+        "Predique la necesidad de introducir cambios, pero nunca modifique demasiado a la vez",
+        "Nunca se muestre demasiado perfecto",
+        "No vaya más allá de su objetivo original; al triunfar, aprenda cuando detenerse",
+        "Sea cambiante en su forma"
     ]
 
     return chapter + 1, titles[chapter]

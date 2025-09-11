@@ -8,7 +8,7 @@ st.write(
     "Oprime el botón para seleccionar aleatoriamiente una de las leyes para repasar el día de hoy.")
 
 if st.button("Generar", type="primary"):
-    num, titulo = randomChapter(rd.randint(0, 9))
+    num, titulo = randomChapter(rd.randint(0, 47))
     
     # Número de la ley (azul y grande)
     st.markdown(
