@@ -9,7 +9,7 @@ st.write(
     "Oprime el botón para seleccionar aleatoriamiente una de las leyes para repasar el día de hoy.")
 
 if st.button("Generar", type="primary"):
-    num, titulo = rd.randint(0, 9)  # de 0 a 47 (48 leyes)
+    num, titulo = randomChapter(rd.randint(0, 9))
     
     # Número de la ley (azul y grande)
     st.markdown(
