@@ -3,7 +3,7 @@ import random as rd
 from lists import randomChapter
 
 st.set_page_config(page_title="L48LdP")
-st.title("Las 48 Leyes del Poder")
+st.title("Las :red[48] Leyes del Poder")
 st.write(
     "Oprime el botón para seleccionar aleatoriamiente una de las leyes para repasar el día de hoy.")
 
@@ -12,12 +12,12 @@ if st.button("Generar", type="primary"):
     
     # Número de la ley (azul y grande)
     st.markdown(
-        f"<h2 style='color: royalblue;'>Ley {num}</h2>",
+        f"<h3 style='color: red;'>Ley {num}</h3>",
         unsafe_allow_html=True
     )
     
     # Título de la ley (debajo, centrado)
     st.markdown(
-        f"<p style='font-size:18px;'>{titulo}</p>",
+        f"<p style='font-size:16px;'>{titulo}</p>",
         unsafe_allow_html=True
     )
