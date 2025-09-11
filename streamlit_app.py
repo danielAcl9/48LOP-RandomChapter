@@ -2,10 +2,23 @@ import streamlit as st
 import random as rd
 from lists import randomChapter
 
+st.set_page_config(page_title="L48LdP", layout="centered")
+
 st.title("Las 48 Leyes del Poder")
 st.write(
     "Oprime el botón para seleccionar aleatoriamiente una de las leyes para repasar el día de hoy.")
 
 if st.button("Generar", type="primary"):
-    num = rd.randint(0, 9)  # de 0 a 47 (48 leyes)
-    st.write(randomChapter(num))
+    num, titulo = rd.randint(0, 9)  # de 0 a 47 (48 leyes)
+    
+    # Número de la ley (azul y grande)
+    st.markdown(
+        f"<h2 style='text-align: center; color: royalblue;'>Ley {num}</h2>",
+        unsafe_allow_html=True
+    )
+    
+    # Título de la ley (debajo, centrado)
+    st.markdown(
+        f"<p style='text-align: center; font-size:18px;'>{titulo}</p>",
+        unsafe_allow_html=True
+    )

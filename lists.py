@@ -1,4 +1,4 @@
-def randomChapter(chapter):
+def randomChapter(chapter: int):
     titles = [
         "Nunca le haga sombra a su amo",
         "Nunca confíe demasiado en sus amigos, aprenda a usar a sus enemigos",
@@ -13,4 +13,4 @@ def randomChapter(chapter):
         # Ley 11 sigue
     ]
 
-    return f"Ley {chapter + 1} \n {titles[chapter]}"
+    return chapter + 1, titles[chapter]
