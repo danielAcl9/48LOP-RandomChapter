@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("Las 48 Leyes del Poder")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Oprime el botón para seleccionar aleatoriamiente una de las leyes para repasar el día de hoy."
 )
