@@ -15,19 +15,20 @@ st.markdown(
     "<p style='text-align: center;'>Oprime el botón para seleccionar aleatoriamente una de las leyes para repasar el día de hoy.</p>",
     unsafe_allow_html=True
 )
+with st.container(horizontal_alignment="center"):
 
-# Botón y resultado
-if st.button("Generar", type="primary"):
-    num, titulo = randomChapter(rd.randint(0, 47))
+    # Botón y resultado
+    if st.button("Generar", type="primary"):
+        num, titulo = randomChapter(rd.randint(0, 47))
 
-    # Número de la ley (azul y grande)
-    st.markdown(
-        f"<h2 style='text-align: center; color: royalblue;'>Ley {num}</h2>",
-        unsafe_allow_html=True
-    )
+        # Número de la ley (azul y grande)
+        st.markdown(
+            f"<h2 style='text-align: center; color: royalblue;'>Ley {num}</h2>",
+            unsafe_allow_html=True
+        )
 
-    # Título de la ley (debajo, centrado)
-    st.markdown(
-        f"<p style='text-align: center; font-size:18px;'>{titulo}</p>",
-        unsafe_allow_html=True
-    )
+        # Título de la ley (debajo, centrado)
+        st.markdown(
+            f"<p style='text-align: center; font-size:18px;'>{titulo}</p>",
+            unsafe_allow_html=True
+        )
