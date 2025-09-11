@@ -12,7 +12,7 @@ if st.button("Generar", type="primary"):
     
     # Número de la ley (azul y grande)
     st.markdown(
-        f"<h3 style='color: #5A2226;'>Ley {num}</h3>",
+        f"<h3 style='color: #FF474f;'>Ley {num}</h3>",
         unsafe_allow_html=True
     )
     
