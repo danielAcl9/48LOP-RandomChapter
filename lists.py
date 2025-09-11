@@ -13,13 +13,13 @@ def randomChapter(chapter: int):
         # Ley 11
         "Haga que la gente dependa de usted",
         "Para desarmar a su víctima, utilice la franqueza y la generosidad de forma selectiva",
-        "Cuando pida ayuda, no apelea a la compasión o a la gratitud de la gente, si no a su egoísmo",
-        "Muéstrese com un amigo, pero actúe como un espía",
+        "Cuando pida ayuda, no apele a la compasión o a la gratitud de la gente, si no a su egoísmo",
+        "Muéstrese como un amigo, pero actúe como un espía",
         "Aplaste por completo a su enemigo",
         "Utilice la ausencia para incrementar el respeto y el honor",
         "Mantenga el suspenso. Maneje el arte de lo impredecible",
         "No construya fortalezas para protegerse: El aislamiento es peligroso",
-        "Sepa co nquien está tratando: No ofenda a la persona equivocada",
+        "Sepa con quién está tratando: No ofenda a la persona equivocada",
         "No se comprometa con nadie",
         # Ley 21
         "Finja candidez para atrapar a los cándidos: Muéstrese más tonto que su víctima",
