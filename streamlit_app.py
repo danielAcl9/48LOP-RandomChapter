@@ -12,12 +12,12 @@ if st.button("Generar", type="primary"):
     
     # Número de la ley (azul y grande)
     st.markdown(
-        f"<h2 style='text-align: center; color: royalblue;'>Ley {num}</h2>",
+        f"<h2 style='color: royalblue;'>Ley {num}</h2>",
         unsafe_allow_html=True
     )
     
     # Título de la ley (debajo, centrado)
     st.markdown(
-        f"<p style='text-align: center; font-size:18px;'>{titulo}</p>",
+        f"<p style='font-size:18px;'>{titulo}</p>",
         unsafe_allow_html=True
     )
