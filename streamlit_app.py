@@ -19,7 +19,7 @@ with st.container(horizontal_alignment="center"):
 
     # Botón y resultado
     if st.button("Generar", type="primary"):
-        num, titulo = randomChapter(rd.randint(0, 47))
+        num, titulo = randomChapter(rd.randint(0, 9))
 
         # Número de la ley (azul y grande)
         st.markdown(
