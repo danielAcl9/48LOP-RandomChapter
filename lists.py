@@ -13,4 +13,4 @@ def randomChapter(chapter):
         # Ley 11 sigue
     ]
 
-    return f"Ley {chapter + 1}: {titles[chapter]}"
+    return f"Ley {chapter + 1} \n {titles[chapter]}"
